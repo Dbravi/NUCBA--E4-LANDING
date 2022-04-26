@@ -3,19 +3,21 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 .cont-general {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 12vh;
+  height: 8vh;
   width: 100%;
   background-color: green;
   margin: 0;
   padding: 0px;
   font-family: 'Montserrat', sans-serif;
 }
+
 /* ICONO */
 .cont1 {
   width: 50%;
@@ -26,16 +28,17 @@
 
 img {
   width: 60px;
-  height: auto;
+  height: 100%;
 }
+
 /* NAVBAR */
 .cont2 {
   min-width: 50%;
-  height: 80%;
+  height: 10vh;
   display: flex;
   align-items: center;
-  margin-right:6%;
-  gap:10px;
+  margin-right: 6%;
+  gap: 10px;
   justify-content: space-around;
 }
 
@@ -43,7 +46,7 @@ img {
   width: 25%;
   text-align: center;
   list-style-type: none;
-  
+
 }
 
 .cont2 a {
@@ -52,11 +55,78 @@ img {
   display: block;
   width: 80%;
   background-color: black;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
 
 }
+
 .cont2 a:hover {
   background-color: lightgreen;
-  color:black;
+  color: black;
+}
+
+/* -----------LANDING ---------- */
+
+.landing {
+  display: flex;
+  background-color: rgb(7, 7, 7);
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 92vh;
+}
+
+.speech {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.speech h1 {
+  margin: 20px;
+}
+
+.imagen {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 50%;
+}
+
+.imagen img {
+  width: 30%;
+  height: auto;
+  border-radius: 5%;
+}
+
+
+.Proyectos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background-color: green;
+}
+
+.cards {
+  width: 35vh;
+  border: 2px solid black;
+  color: white;
+  margin: 15px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.cards h2 {
+  margin: 15px
+}
+
+.cards p {
+  margin: 15px;
 }
