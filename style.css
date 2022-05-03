@@ -346,14 +346,22 @@
 }
 
 .skill-title {
-  text-align: center;
   font-size: 1.6em;
-  text-transform: uppercase;
   line-height: 1;
   text-align: center;
   color:black;
-  background-size: 200%;
-  background-position: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+
+.skill-title h1 {
+  width: 20px;
+}
+
+.title-img {
+  width: 50px;
 }
 
 .skills {
