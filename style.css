@@ -25,11 +25,14 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: 900;
+  border-radius: 5%;
 }
 
 .topnav a:hover {
-  background-color: rgb(243, 13, 13);
+  background-color: rgba(255, 0, 0, 0.432);
   color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 
 .topnav .icon {
@@ -69,13 +72,13 @@
     text-align: left;
     font-size: 0.8em;
     background: rgba(0, 0, 0, 0.555);
-    height: 12vh;
-    line-height: 350%;
-    padding: 20px;
+    height: 10vh;
+    line-height: 200%;
+    padding: 10px;
   }
 
   .topnav.responsive a:hover {
-    background: red;
+    background: rgba(131, 20, 20, 0.397);
     color: #ffffff;
   }
 }
@@ -115,8 +118,13 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.speech a:visited {
+  color: white;
+}
+
 .speech h2 {
   font-size: 1.1em;
+  line-height: 200%;
 }
 
 @keyframes bounce-in-top {
@@ -180,11 +188,13 @@
 .speech h3 {
   font-size: 1 em;
   width: 80%;
+  margin: 15px;
   
 }
 
 .speech h4 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
 }
 
 .imagen {
