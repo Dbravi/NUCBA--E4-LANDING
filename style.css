@@ -32,7 +32,7 @@
 }
 
 .topnav a:hover {
-  background-color: rgba(255, 0, 0, 0.432);
+  background-color: rgba(95, 41, 52,0.432);;
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
@@ -80,7 +80,7 @@
   }
 
   .topnav.responsive a:hover {
-    background: rgba(131, 20, 20, 0.397);
+    background: rgba(95, 41, 52,0.432);
     color: #ffffff;
   }
 }
@@ -98,6 +98,7 @@
   background-image: radial-gradient(ellipse at 86% 44%, rgba(82, 26, 26, 70) 0%, rgba(165, 176, 84, 0) 90%), radial-gradient(ellipse at 57% 59%, rgba(142, 42, 216, 0.1) 0%, rgba(142, 42, 216, 0) 60%), radial-gradient(circle at 16% 17%, rgba(97, 149, 111, 0.2) 0%, rgba(97, 149, 111, 0) 40%), radial-gradient(farthest-side at 45% 3%, rgba(246, 43, 171, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
   
 }
+
 
 .speech {
   display: flex;
