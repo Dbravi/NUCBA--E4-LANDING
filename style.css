@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   /* border: 1px solid white; */
+  font-size: 18px;
 }
 
 .topnav {
@@ -94,6 +95,8 @@
 
 .speech h1 {
   margin: 20px;
+  font-size: 2em;
+  padding: 15px;
 }
 
 .speech h3 {
@@ -109,6 +112,69 @@
 .imagen img {
   max-width: 60%;
 }
+@media (max-width: 1000px) {
+  .landing {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .speech {
+    margin-top: 30px;
+  }
+}
+
+/* -------------------SKILLS------------------- */
+.skill-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 5vh;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cards1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  margin: 30px;
+  padding: 50px;
+  gap: 10px;
+}
+
+.cards1 img {
+  width: 70px;
+  
+}
+
+.cards1 img:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+ /* ------------------LINUS------------ */
+.linus img {
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  object-fit:cover;
+}
+
+/* -----------PROYECTOS------------- */
 
 .Proyectos {
   width: 100%;
@@ -117,16 +183,17 @@
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  background-color: rgb(199, 39, 39);
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .cards {
-  width: 35vh;
-  border: 2px solid black;
+  width: 300px;
+  height: 300px;
   color: white;
   margin: 15px;
   border-radius: 10%;
-  background-color: black;
+  background-color: rgb(82, 26, 26);
 }
 
 .cards h2 {
@@ -137,12 +204,47 @@
   margin: 15px;
 }
 
-@media (max-width: 1000px) {
-  .landing {
-    flex-direction: column;
-  }
+/* ----FOOTA-------- */
 
-  .speech {
-    margin-top: 30px;
-  }
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  gap: 3vh;
+  padding: 30px;
+  background: rgb(95, 41, 52);
 }
+
+footer h3 {
+  font-size: 2em;
+  color: #ffffff;
+  /* animation: mymove2 5s infinite; */
+}
+/* 
+@keyframes mymove2 {
+  50% {
+    color: white;
+  }
+} */
+
+#icons a {
+  color: white;
+}
+
+#contacto p {
+  font-size: 1.1em;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-items: center;
+  margin: 5px;
+}
+
