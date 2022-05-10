@@ -14,17 +14,22 @@
 <body style="background-color:black">
     <nav>
         <div class="topnav" id="myTopnav">
-            <a href="#footers">Contacto</a>
-            <a href="#skills">Habilidades</a>
-            <a href="#Proyectos">Proyectos</a>
-            <a href="./index.html">Home</a>
+            <span></span>
+            <a href="#footers" onclick="myFunction()">Contacto</a>
+            <span></span>
+            <a href="#skills" onclick="myFunction()">Habilidades</a>
+            <span></span>
+            <a href="#Proyectos" onclick="myFunction()">Proyectos</a>
+            <span></span>
+            <a href="#home" onclick="myFunction()" id="link">Home</a>
+            <span></span>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars fa-2x"></i>
             </a>
         </div>
     </nav>
 
-    <section class="landing">
+    <section class="landing" id="home">
         <article class="speech">
             <h1>Hola! soy Damián..</h1>
             <h2>> Estudio fullstack developer en <a href="https://nucba.com.ar/codingbootcamp" target="new">NUCBA</a> y
@@ -96,6 +101,10 @@
                 culpa in odio magnam mollitia, corporis aut minima voluptatem atque reiciendis eligendi dolore.
                 Laudantium corporis dolore voluptate?
             </p>
+            <div class="buttons">
+            <button>Ver deploy</button>
+            <button>Ver en github</button>
+        </div>
         </div>
         <div class="cards">
             <h2>Proyecto 2</h2>
@@ -104,6 +113,10 @@
                 culpa in odio magnam mollitia, corporis aut minima voluptatem atque reiciendis eligendi dolore.
                 Laudantium corporis dolore voluptate?
             </p>
+            <div class="buttons">
+                <button>Ver deploy</button>
+                <button>Ver en github</button>
+            </div>
         </div>
         <div class="cards">
             <h2>Proyecto 3</h2>
@@ -112,6 +125,10 @@
                 culpa in odio magnam mollitia, corporis aut minima voluptatem atque reiciendis eligendi dolore.
                 Laudantium corporis dolore voluptate?
             </p>
+            <div class="buttons">
+                <button href="#">Ver deploy</button>
+                <button>Ver en github</button>
+            </div>
         </div>
     </section>
 
