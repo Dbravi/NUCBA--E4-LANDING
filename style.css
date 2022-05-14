@@ -622,7 +622,7 @@ footer {
   background-color: black;
   color: rgb(255, 255, 255);
   gap: 3vh;
-  height: 35vh;
+  height: 30vh;
   padding: 30px;
   background: rgb(95, 41, 52);
   box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.75);
@@ -714,17 +714,19 @@ footer:hover {
   color: black;
   font-size: 2em;
   padding: 20px;
+  height: 10vh;
 }
 
 .logos {
   display: flex;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   gap: 10%;
   padding: 10px;
+  height: 60vh;
 }
 
 .l img {
@@ -733,7 +735,7 @@ footer:hover {
 }
 
 .l-n img {
-  width: 95px;
+  width: 90px;
   border-radius: 50%;
 }
 
