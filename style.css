@@ -27,7 +27,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.4em;
   font-weight: 900;
 }
 
@@ -182,10 +182,11 @@
 
 .speech a:link {
   color: white;
+  font-size: 1em;
 }
 
 .speech h2 {
-  font-size: 1.1em;
+  font-size: 1.4em;
   line-height: 200%;
 }
 
@@ -256,7 +257,7 @@
 }
 
 .speech h3 {
-  font-size: 1 em;
+  font-size: 1.3em;
   width: 80%;
   margin: 15px;
 }
@@ -264,6 +265,7 @@
 .speech h4 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 10px;
+  font-size: 1.2em;
 }
 
 .imagen {
